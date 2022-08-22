@@ -1,12 +1,12 @@
 ## Comment out when doing local development
 backend:
   name: github
-  repo: brentryanjohnson/11ty-uswds-cms-demo
-#  base_url: https://federalistapp.18f.gov
-#  auth_endpoint: external/auth/github
-#  preview_context: federalist/build
+  repo: 18F/sd-11ty-uswds-demo
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
   branch: main
-#  use_graphql: true
+  use_graphql: true
 ##
 ## Uncomment when doing local development on Netlify CMS
 ## Run `npx netlify-cms-proxy-server` to start working locally
